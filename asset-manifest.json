@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-hw-01-components/static/js/main.aea8a6b6.chunk.js",
+    "main.js.map": "/react-hw-01-components/static/js/main.aea8a6b6.chunk.js.map",
+    "runtime-main.js": "/react-hw-01-components/static/js/runtime-main.07b33aae.js",
+    "runtime-main.js.map": "/react-hw-01-components/static/js/runtime-main.07b33aae.js.map",
+    "index.html": "/react-hw-01-components/index.html"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07b33aae.js",
+    "static/js/main.aea8a6b6.chunk.js"
+  ]
+}
