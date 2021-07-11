@@ -1,7 +1,4 @@
-// import user from './user.json';
 import PropTypes from 'prop-types';
-
-// stats: {followers, views, likes}
 
 const Profile = ({ tag, name, location, avatar, stats }) => (
   <div class="profile">

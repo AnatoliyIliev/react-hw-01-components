@@ -1,4 +1,3 @@
-// import friends from './friends.json';
 import PropTypes from 'prop-types';
 
 const FriendList = ({ friends }) => (
