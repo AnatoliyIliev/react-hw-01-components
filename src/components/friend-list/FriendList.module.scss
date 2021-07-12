@@ -1,0 +1,15 @@
+.friend_list {
+    display: block;
+    
+}
+
+.item{
+    display: flex;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 10px; 
+    border-radius: 4px;  
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
