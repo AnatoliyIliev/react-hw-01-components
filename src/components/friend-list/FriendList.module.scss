@@ -1,16 +1,31 @@
-@import '/node_modules/modern-normalize/modern-normalize.css';
 .friend_list {
-    display: block;
-    
+    display: block;    
 }
 
 .item{
-    display: flex;    
+    display: flex;  
+    width: 200px;  
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
-    margin-bottom: 10px; 
+    margin: 10px auto; 
     border-radius: 4px;  
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    // justify-content: center;
+    align-items: center;   
+}
 
+.status{
+    // background: red;
+    border-radius: 50%;
+    height: 15px;
+    object-fit: cover;
+    width: 15px;
+    margin: 10px;
+}
+
+.avatar {
+    // display: flex;
+    background-color: yellowgreen;
+    width: 50px;
+    margin: 10px;
+    border: 2px solid transparent;
+    border-radius: 6px;
 }
