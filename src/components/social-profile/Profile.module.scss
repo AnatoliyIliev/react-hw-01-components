@@ -1,10 +1,7 @@
 .profile{
     display: flexbox;
     background-color: whitesmoke;
-    text-align: center;
-    // align-items: center;
-    // justify-content: center;
-    
+    text-align: center;  
 }
 
 .description{
@@ -33,7 +30,7 @@
         // display: flexbox;
         flex: 1;
         background-color: whitesmoke;
-        outline: 1px solid grey;
+        outline: 1px solid rgb(230, 228, 228);
         // justify-content: center;
         text-align: center;
         

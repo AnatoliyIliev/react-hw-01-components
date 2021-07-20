@@ -1,14 +1,17 @@
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.scss';
 
-const colors = [
-  { color: '#FFFFFF' },
-  { color: '#2196F3' },
-  { color: '#4CAF50' },
-  { color: '#FF9800' },
-  { color: '#009688' },
-  { color: '#795548' },
-];
+function randomColor() {
+  return (
+    'rgb(' +
+    Math.floor(Math.random() * 256) +
+    ',' +
+    Math.floor(Math.random() * 256) +
+    ',' +
+    Math.floor(Math.random() * 256) +
+    ')'
+  );
+}
 
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
@@ -17,7 +20,7 @@ const Statistics = ({ title, stats }) => (
       {stats.map(({ id, label, percentage }) => (
         <li
           className={styles.item}
-          style={{ background: colors.map(({ color }) => color) }}
+          style={{ background: randomColor() }}
           key={id}
         >
           <span className={styles.label}>{label}</span>
